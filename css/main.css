@@ -8,3 +8,47 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  text-align: center;
+  font-family: Bevan, serif;
+  margin-bottom: .3rem;
+}
+
+.nav {
+  display: block;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  background-color: #713837;
+  border-radius: 4px;
+  padding: .6em .5em .75em;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons a:hover {
+  background-color: #f33;
+  color: #fff;
+}
+
+.buttons:hover {
+  background-color: #f33;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
