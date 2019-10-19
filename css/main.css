@@ -11,6 +11,7 @@ html {
 
 img {
   width: 100%;
+  display: block;
 }
 
 h1, h2 {
@@ -21,7 +22,7 @@ h1, h2 {
   margin: .3em;
 }
 
-h2{
+h2 {
   text-align: left;
   font-size: 1.875rem;
 }
@@ -45,14 +46,13 @@ li {
 
 .buttons {
   background-color: #b2a212;
-  font-family: Georgia, serif;
   border-radius: 4px;
   padding: .2em .5em .3em;
   font-size: 1.35rem;
 }
 
-.current{
-    background-color: #713837;
+.current {
+  background-color: #713837;
 }
 
 .buttons a {
@@ -70,8 +70,8 @@ li {
 }
 
 body {
-  margin: 0.3rem;
-text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 .end {
