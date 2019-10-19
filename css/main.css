@@ -1,6 +1,6 @@
 html {
   background-color: #fff;
-  font-family: 'Sigmar One' Georgia, serif;
+  font-family: Georgia, serif;
   box-sizing: border-box;
 }
 
@@ -8,10 +8,10 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   font-size: 4rem;
-  font-family: Sigmar One, serif;
+  font-family: 'Sigmar One', cursive;
   color: #cc1465;
   margin: .3em;
 }
@@ -57,6 +57,5 @@ li {
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
 }
