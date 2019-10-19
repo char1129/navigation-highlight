@@ -54,9 +54,19 @@ li {
 
 .current {
   background-color: #713837;
+  border-radius: 4px;
+  padding: .2em .5em .3em;
+  font-size: 1.35rem;
+  color: #fff;
+    text-decoration: none;
 }
 
 .buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.current a {
   text-decoration: none;
   color: #fff;
 }
@@ -66,8 +76,17 @@ li {
   color: #fff;
 }
 
+.current a:hover {
+  background-color: #713837;
+  color: #fff;
+}
+
 .buttons:hover {
   background-color: #b20953;
+}
+
+.current:hover {
+  background-color: #713837;
 }
 
 body {
