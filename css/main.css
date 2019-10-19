@@ -30,7 +30,6 @@ ul {
 
 li {
   display: inline-block;
-  background-color: #713837;
   padding: .6em .5em .75em;
 }
 
@@ -40,6 +39,10 @@ li {
   border-radius: 4px;
   padding: .2em .5em .3em;
   font-size: 1.35rem;
+}
+
+.current{
+    background-color: #713837;
 }
 
 .buttons a {
