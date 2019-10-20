@@ -20,13 +20,13 @@ h1, h2 {
   font-size: 3rem;
   font-family: "Sigmar One", cursive;
   color: #cc1465;
-  margin: 0 .3em;
+  margin: .75em .75em 0;
 }
 
 h2 {
   text-align: left;
   font-size: 1.875rem;
-  margin: .3em;
+  margin: .75em;
 }
 
 .nav {
@@ -40,6 +40,7 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 1.125rem 0 .75rem;
 }
 
 li {
