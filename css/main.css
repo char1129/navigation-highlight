@@ -19,12 +19,13 @@ h1, h2 {
   font-size: 3rem;
   font-family: "Sigmar One", cursive;
   color: #cc1465;
-  margin: .3em;
+  margin: 0 .3em;
 }
 
 h2 {
   text-align: left;
   font-size: 1.875rem;
+  margin: .3em;
 }
 
 .nav {
@@ -37,7 +38,7 @@ h2 {
 
 ul {
   list-style-type: none;
-  padding: 0 .75em;
+  padding: 0;
 }
 
 li {
@@ -48,7 +49,7 @@ li {
   background-color: #b2a212;
   border-radius: 4px;
   padding: .2em .5em .3em;
-  font-size: 1.35rem;
+  font-size: 1.125rem;
   color: #fff;
 }
 
@@ -73,7 +74,11 @@ li {
 body {
   margin: 0;
   text-align: center;
-  padding: 0 .75em;
+  padding: 0;
+}
+
+p {
+  padding: .3em .75em;
 }
 
 .end {
