@@ -26,9 +26,9 @@ h1 {
 
 .buttons {
   list-style-type: none;
-  text-align: left;
   padding: 0;
   margin: .75rem 0 .5rem .5rem;
+  text-align: center;
 }
 
 .buttons li {
@@ -45,12 +45,13 @@ h1 {
   font-size: 1.125rem;
 }
 
-.buttons a:hover {
-  background-color: #cc1465;
+.current {
+  display: inline-block;
+  background-color: #b20953;
 }
 
-.current a {
-  background-color: #b20953;
+a:hover {
+  background-color: #cc1465;
 }
 
 body {
