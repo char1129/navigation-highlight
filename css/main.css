@@ -9,10 +9,11 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
+.nav {
   display: block;
-  padding: 0 .75em;
+  background-color: #ffe500;
+  border-top: .05px solid #ffe500;
+  border-bottom: .03px solid #ffe500;
 }
 
 h1 {
@@ -21,6 +22,41 @@ h1 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
   margin: .5em .75em 1.5rem;
+}
+
+.buttons {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: .75rem 0 .5rem .5rem;
+}
+
+.buttons li {
+  display: inline-block;
+}
+
+.buttons a {
+  color: #fff;
+  display: inline-block;
+  padding: .2em .5em .4em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.buttons a:hover {
+  background-color: #cc1465;
+}
+
+.current a {
+  background-color: #b20953;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  padding: 0;
 }
 
 h2 {
@@ -32,58 +68,10 @@ h2 {
   line-height: 3rem;
 }
 
-.nav {
+img {
+  width: 100%;
   display: block;
-  background-color: #ffe500;
-  border-top: .05px solid #ffe500;
-  border-bottom: .03px solid #ffe500;
-  text-align: left;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: .75rem 0 .5rem .5rem;
-}
-
-li {
-  display: inline-block;
-}
-
-.buttons {
-  background-color: #b2a212;
-  border-radius: 4px;
-  padding: .2em .5em .4em;
-  font-size: 1.125rem;
-  color: #fff;
-}
-
-.current {
-  background-color: #b20953;
-}
-
-.current:hover {
-  background-color: #cc1465;
-}
-
-.buttons a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.buttons a:hover {
-  background-color: #cc1465;
-  color: #fff;
-}
-
-.buttons:hover {
-  background-color: #cc1465;
-}
-
-body {
-  margin: 0;
-  text-align: left;
-  padding: 0;
+  padding: 0 .75em;
 }
 
 p {
