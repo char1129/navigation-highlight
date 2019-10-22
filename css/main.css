@@ -46,11 +46,12 @@ a {
 }
 
 .current {
-  background-color: #cc1465;
+  background-color: #b20953;
+  color: #fff
 }
 
 a:hover {
-  background-color: #b20953;
+  background-color: #cc1465;
 }
 
 body {
