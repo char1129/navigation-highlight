@@ -53,6 +53,10 @@ a:hover {
   background-color: #cc1465;
 }
 
+a:active {
+  background-color: #cc1465;
+}
+
 body {
   margin: 0;
   text-align: left;
